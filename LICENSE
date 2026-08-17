@@ -29,5 +29,11 @@ Assets de terceros — conservan su propia licencia, no cubiertos por MIT:
   (GrabCAD Community License) o del autor. Verifica la fuente antes de redistribuirlos
   por separado.
 - assets/models/env/studio_1k.hdr — HDRI de estudio, CC0 (dominio público).
+- assets/img/LogoMadrams.png — logo y marca del equipo MadRams (Tec de
+  Monterrey). Propiedad del equipo/organización; NO cubierto por la licencia MIT
+  anterior. Usado con permiso, solo con fines de identificación — no se concede
+  derecho de reuso, remezcla ni redistribución.
+  · Team logo and mark, property of MadRams (Tec de Monterrey), not covered by
+  the MIT license above. Used with permission for identification purposes only.
 - Librerías cargadas por CDN: Anime.js (MIT), @google/model-viewer (Apache-2.0),
   Google Fonts (SIL Open Font License 1.1).
