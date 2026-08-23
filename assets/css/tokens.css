@@ -1,14 +1,22 @@
 :root {
-  /* Color */
+  /* ===== Color — Curso Telemetría BÁSICO =====
+     Primer escalón de la familia: azul royal / acento ámbar.
+     Mismo fondo profundo, rojo de alarma y semántica compartida con toda la familia. */
   --bg: #0A0E1A;
   --bg-panel: #131B2E;
   --bg-panel-2: #1B2740;
-  --blue-royal: #2547E0;
-  --blue-bright: #6C8CFF;
-  --signal-amber: #FFB13D;
+  --blue-royal: #2547E0;   /* primario / estructura */
+  --blue-bright: #6C8CFF;  /* brillante / acento claro */
+  --signal-amber: #FFB13D; /* señal / acento ámbar */
   --text: #E8ECF6;
   --text-dim: #8A93AC;
   --border: #24304A;
+  --alarm: #FF3C3C;        /* compartida con toda la familia */
+
+  /* Alias semánticos compartidos */
+  --accent: #2547E0;
+  --accent-2: #6C8CFF;
+  --signal: #FFB13D;
 
   /* Type */
   --font-display: 'Space Grotesk', 'Arial Narrow', sans-serif;

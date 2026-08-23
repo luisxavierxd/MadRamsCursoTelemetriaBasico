@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="assets/img/LogoMadrams.png">
     <title>Curso Telemetría (Básico) — Nuevo Ingreso · MadRams</title>
-    <meta name="description" content="Curso introductorio de electrónica para telemetría, 5 sesiones basadas 1:1 en los subsistemas reales de MadRams Minibaja SAE.">
+    <meta name="description" content="Curso introductorio de electrónica para telemetría, 6 sesiones basadas 1:1 en los subsistemas reales de MadRams Minibaja SAE.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/tokens.css">
@@ -32,16 +32,16 @@
     <main>
         <section class="hero">
             <svg class="hero__trace circuit-trace" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-        <path d="M0 420 L160 420 L160 300 L360 300 L360 120 L620 120 L620 260 L800 260"
-              fill="none" stroke="#2547E0" stroke-width="2" stroke-dasharray="1200" />
-        <path d="M0 80 L120 80 L120 200 L300 200 L300 400 L520 400 L520 480 L800 480"
-              fill="none" stroke="#6C8CFF" stroke-width="1.5" stroke-dasharray="1200" opacity="0.6" />
-      </svg>
+                <path d="M0 420 L160 420 L160 300 L360 300 L360 120 L620 120 L620 260 L800 260"
+                      fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="1200" />
+                <path d="M0 80 L120 80 L120 200 L300 200 L300 400 L520 400 L520 480 L800 480"
+                      fill="none" stroke="var(--accent-2)" stroke-width="1.5" stroke-dasharray="1200" opacity="0.6" />
+            </svg>
             <div class="container">
                 <div class="hero__content">
                     <p class="hero__eyebrow">MadRams · Minibaja SAE · Nivel Básico</p>
                     <h1>De la Ley de Ohm a un GPS con radio propia</h1>
-                    <p class="lead">Curso introductorio de electrónica para telemetría, pensado para estudiantes de nuevo ingreso. Cinco sesiones prácticas, basadas 1:1 en los sensores reales del coche: suspensión, temperatura, IMU y GPS.</p>
+                    <p class="lead">Curso introductorio de electrónica para telemetría, pensado para estudiantes de nuevo ingreso. Seis sesiones prácticas, basadas 1:1 en los sensores y subsistemas reales del coche: programación con PRIMM, suspensión, temperatura, IMU, RPM y GPS con telemetría en vivo.</p>
                     <div class="hero__actions">
                         <a class="btn btn--primary" href="sesiones/sesion-1.html">Empezar en Sesión 1</a>
                         <a class="btn btn--ghost" href="#temario">Ver el temario</a>
@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="strip__grid">
                     <div class="strip__stat">
-                        <div class="value" data-counter="5">0</div>
+                        <div class="value" data-counter="6">0</div>
                         <div class="label">sesiones</div>
                     </div>
                     <div class="strip__stat">
@@ -67,7 +67,7 @@
                         <div class="label">subsistemas reales del coche</div>
                     </div>
                 </div>
-                <p class="strip__note">Cada sesión: 20-30 min de teoría + 60-70 min de práctica con kits Arduino. Todo se arma en mesa de trabajo, en un entorno seguro y controlado. La Sesión 6+ es la continuación opcional para quienes se integran al equipo.</p>
+                <p class="strip__note">Cada sesión: 25 min de teoría + 65 min de práctica y simulación en Wokwi. Se aprende con problemas reales del vehículo y entregables con rúbricas objetivas.</p>
             </div>
         </section>
 
@@ -83,33 +83,37 @@
                     </a>
                     <a class="card session-card reveal" href="sesiones/sesion-2.html">
                         <span class="num">02</span>
-                        <h3>Suspensión (potenciómetro)</h3>
-                        <p class="sub">Potenciómetro OEM GM 15098628/29</p>
-                        <div class="tags"><span class="badge">potenciómetro</span><span class="badge">divisor de voltaje</span></div>
+                        <h3>Fundamentos de programación (PRIMM)</h3>
+                        <p class="sub">Alarma de sobrecalentamiento a pits · variables de estado e histéresis</p>
+                        <div class="tags"><span class="badge">PRIMM</span><span class="badge">histéresis Wokwi</span></div>
                     </a>
                     <a class="card session-card reveal" href="sesiones/sesion-3.html">
                         <span class="num">03</span>
-                        <h3>Temperatura (DS18B20 + OneWire)</h3>
-                        <p class="sub">DS18B20 motor/CVT · mención AS5600</p>
-                        <div class="tags"><span class="badge">DS18B20</span><span class="badge">MPR121 (bonus)</span></div>
+                        <h3>Suspensión (potenciómetro)</h3>
+                        <p class="sub">Potenciómetro OEM GM 15098628/29 · divisor 5V→3.3V</p>
+                        <div class="tags"><span class="badge">potenciómetro</span><span class="badge">divisor de voltaje</span></div>
                     </a>
                     <a class="card session-card reveal" href="sesiones/sesion-4.html">
                         <span class="num">04</span>
-                        <h3>IMU y bus I2C</h3>
-                        <p class="sub">MPU6050 ×2 — chasis 0x68 / volante 0x69</p>
-                        <div class="tags"><span class="badge">MPU6050</span><span class="badge">I2C</span></div>
+                        <h3>Temperatura (DS18B20 + 1-Wire)</h3>
+                        <p class="sub">Monitoreo térmico de motor y CVT · bus OneWire</p>
+                        <div class="tags"><span class="badge">DS18B20</span><span class="badge">1-Wire bus</span></div>
                     </a>
                     <a class="card session-card reveal" href="sesiones/sesion-5.html">
                         <span class="num">05</span>
-                        <h3>GPS + Demo del sistema real</h3>
-                        <p class="sub">MAX-M10S · LoRa 915MHz · dashboard Grafana</p>
-                        <div class="tags"><span class="badge">GPS NMEA</span><span class="badge">microSD</span></div>
+                        <h3>Bus I²C: IMU y Encoder AS5600</h3>
+                        <p class="sub">MPU6050 (0x68) + AS5600 (0x36) — chasis e indicador de RPM</p>
+                        <div class="tags"><span class="badge">MPU6050</span><span class="badge">AS5600</span><span class="badge">I²C</span></div>
                     </a>
                     <a class="card card--alert session-card session-card--bonus reveal" href="sesiones/sesion-6.html">
-                        <span class="num">06+</span>
-                        <h3>Proyecto de equipo: Black Box real</h3>
-                        <p class="sub">Instalación en el coche viejo — solo equipo</p>
-                        <div class="tags"><span class="badge">siguiente nivel</span></div>
+                        <span class="num">06 🏁</span>
+                        <h3>GPS + MicroSD (Data Day)</h3>
+                        <p class="sub">Nodo de adquisición completo, registro en tarjeta de memoria y análisis de corrida</p>
+                        <div class="tags">
+                            <span class="badge">GPS NMEA</span>
+                            <span class="badge">MicroSD SPI</span>
+                            <span class="badge" style="color:var(--signal-amber);border-color:rgba(255,177,61,0.4)">🏁 Data Day · Entrega Final</span>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -118,8 +122,7 @@
 
     <footer class="site-footer">
         <div class="container">
-            <p><strong>Bibliografía general:</strong> Scherz &amp; Monk — <em>Practical Electronics for Inventors</em> · MPU6050 Datasheet (InvenSense) · DS18B20 Datasheet (Analog Devices) · u-blox MAX-M10S Datasheet · Heltec WiFi LoRa 32 V4 docs · SparkFun
-                Learn / Adafruit Learning System · Baja SAE 2026 Rules, Rev A.</p>
+            <p><strong>Bibliografía general:</strong> Scherz &amp; Monk — <em>Practical Electronics for Inventors</em> · InvenSense <em>MPU-6050 Specification</em> · ams-OSRAM <em>AS5600 Datasheet</em> · Analog Devices <em>DS18B20 Datasheet</em> · u-blox <em>MAX-M10S Datasheet</em> · Semtech <em>SX1262 LoRa</em> · Baja SAE 2026 Rules.</p>
             <p>MadRams — Minibaja SAE. Material del curso vive en el Notion del equipo.</p>
         </div>
     </footer>
