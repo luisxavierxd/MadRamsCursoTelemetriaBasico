@@ -260,7 +260,7 @@
 
   function renderNav(data) {
     var prev = data.prev ? el('a', { class: 'btn btn--ghost', href: data.prev.url, title: 'Ir a ' + data.prev.label }, ['← ' + data.prev.label]) : el('span', {}, []);
-    var next = data.next ? el('a', { class: 'btn btn--ghost', href: data.next.url, title: 'Ir a ' + data.next.label }, [data.next.label + ' →']) : el('span', {}, []);
+    var next = data.next ? el('a', { class: 'btn btn--primary', href: data.next.url, title: 'Ir a ' + data.next.label }, [data.next.label + ' →']) : el('span', {}, []);
     return el('nav', { class: 'session-nav container' }, [prev, next]);
   }
 
