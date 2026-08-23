@@ -181,11 +181,6 @@ window.SESSION_DATA = {
     'Semtech Corporation (2022) — SX1261/2 Long Range Low Power Transceiver Overview.'
   ],
 
-  cta: {
-    label: 'Continuar al Curso Intermedio: Arquitectura y RTOS →',
-    url: 'https://luisxavierxd.github.io/MadRamsCursoTelemetriaIntermedio/'
-  },
-
   prev: { label: '05 · Bus I²C (MPU6050 + AS5600)', url: 'sesion-5.html' },
   next: { label: 'Continuar al Curso Intermedio: Arquitectura y RTOS', url: 'https://luisxavierxd.github.io/MadRamsCursoTelemetriaIntermedio/' }
 };
