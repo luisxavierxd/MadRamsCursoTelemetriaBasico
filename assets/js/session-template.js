@@ -29,7 +29,7 @@
       var cls = 'nav-dot' + (extraClass ? ' ' + extraClass : '');
       if (n < currentNum) cls += ' is-done';
       else if (n === currentNum) cls += ' is-current';
-      var attrs = { href: 'sesion-' + n + '.html', class: cls, 'aria-label': label, title: label };
+      var attrs = { href: '../sesion-' + n + '/', class: cls, 'aria-label': label, title: label };
       if (n === currentNum) attrs['aria-current'] = 'true';
       return el('a', attrs, [label]);
     }
@@ -37,8 +37,8 @@
     dots.push(dot(6, 'nav-dot--bonus'));
     return el('header', { class: 'site-header' }, [
       el('div', { class: 'container' }, [
-        el('a', { class: 'site-header__brand', href: '../index.html' }, [
-          el('img', { src: '../assets/img/LogoMadrams.png', alt: 'MadRams' }),
+        el('a', { class: 'site-header__brand', href: '../../index.html' }, [
+          el('img', { src: '../../assets/img/LogoMadrams.png', alt: 'MadRams' }),
           document.createTextNode('Curso Telemetría')
         ]),
         el('ul', { class: 'nav-dots' }, dots)
@@ -288,7 +288,7 @@
       var mv = el('model-viewer', {
         src: m.src, alt: m.alt || m.label || 'Modelo 3D',
         'camera-controls': '', 'auto-rotate': '', 'interaction-prompt': 'none',
-        'environment-image': '../assets/models/env/studio_1k.hdr',
+        'environment-image': '../../assets/models/env/studio_1k.hdr',
         'tone-mapping': 'neutral', 'exposure': '1.1',
         'shadow-intensity': '1', 'shadow-softness': '0.6'
       }, []);

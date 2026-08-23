@@ -24,7 +24,7 @@ window.SESSION_DATA = {
   model: {
     label: 'Arduino Uno',
     alt: 'Modelo 3D de Arduino Uno',
-    src: '../assets/models/ArduinoUno.glb',
+    src: '../../assets/models/ArduinoUno.glb',
     orientation: '0deg 0deg 203deg',
     specs: [
       { k: 'Microcontrolador', v: 'ATmega328P' },
@@ -70,7 +70,7 @@ window.SESSION_DATA = {
         'Ejemplo de la práctica de hoy: el microcontrolador entrega 5V, pero un LED estándar solo tolera ~2V y ~15mA (0.015A) sin destruirse. ¿Qué resistencia en serie debemos colocar? <code>R = (5V − 2V) / 0.015A = 200Ω</code>, y usamos el valor comercial estándar más cercano: <span class="value-hl">220Ω</span>. Sin esta resistencia limitadora, la corriente se dispara y el LED se quema de inmediato.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/ohm-triangle.svg',
+        src: '../../assets/img/diagrams/ohm-triangle.svg',
         alt: 'Triángulo de la Ley de Ohm',
         caption: 'Tapa la cantidad que buscas: las otras dos forman la fórmula.'
       },
@@ -92,7 +92,7 @@ window.SESSION_DATA = {
         'La resistencia limitadora del LED se coloca <strong>en serie</strong> con el LED para garantizar que toda la corriente que llega al semiconductor pase primero por ella y quede limitada de forma segura.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/series-parallel.svg',
+        src: '../../assets/img/diagrams/series-parallel.svg',
         alt: 'Circuitos en serie y en paralelo',
         caption: 'Serie: misma corriente, voltajes que se suman. Paralelo: mismo voltaje, corriente que se reparte.',
         wide: true
@@ -209,5 +209,5 @@ window.SESSION_DATA = {
   },
 
   prev: null,
-  next: { label: '02 · Fundamentos PRIMM (termostato)', url: 'sesion-2.html' }
+  next: { label: '02 · Fundamentos PRIMM (termostato)', url: '../sesion-2/' }
 };

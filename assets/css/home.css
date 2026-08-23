@@ -43,6 +43,8 @@
 .session-card h3 { font-size: 1.15rem; margin-bottom: 4px; }
 .session-card .sub { color: var(--text-dim); font-size: 0.88rem; margin-bottom: var(--space-1); }
 .session-card .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.session-card__deliverable { color: var(--text-dim); font-size: 0.88rem; margin-top: 2px; }
+.session-card__deliverable b { color: var(--text); font-weight: 600; }
 
 @media (max-width: 640px) {
   .hero__actions { flex-direction: column; align-items: flex-start; }

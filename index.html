@@ -44,7 +44,7 @@
                     <h1>De la Ley de Ohm a un GPS con radio propia</h1>
                     <p class="lead">Curso introductorio de electrónica para telemetría, pensado para estudiantes de nuevo ingreso. Seis sesiones prácticas, basadas 1:1 en los sensores y subsistemas reales del coche: programación con PRIMM, suspensión, temperatura, IMU, RPM y GPS con telemetría en vivo.</p>
                     <div class="hero__actions">
-                        <a class="btn btn--primary" href="sesiones/sesion-1.html">Empezar en Sesión 1</a>
+                        <a class="btn btn--primary" href="sesiones/sesion-1/">Empezar en Sesión 1</a>
                         <a class="btn btn--ghost" href="#temario">Ver el temario</a>
                     </div>
                 </div>
@@ -76,45 +76,41 @@
             <div class="container">
                 <h2>Temario</h2>
                 <div class="sessions__grid">
-                    <a class="card session-card reveal" href="sesiones/sesion-1.html">
+                    <a class="card session-card reveal" href="sesiones/sesion-1/">
                         <span class="num">01</span>
                         <h3>Electricidad + Arduino</h3>
                         <p class="sub">Base de todo el sistema electrónico</p>
-                        <div class="tags"><span class="badge">LED · resistencias</span><span class="badge">multímetro</span></div>
+                        <p class="session-card__deliverable"><b>Entregable:</b> proyecto Wokwi: Ley de Ohm + Blink estructurado</p>
                     </a>
-                    <a class="card session-card reveal" href="sesiones/sesion-2.html">
+                    <a class="card session-card reveal" href="sesiones/sesion-2/">
                         <span class="num">02</span>
                         <h3>Fundamentos de programación (PRIMM)</h3>
                         <p class="sub">Alarma de sobrecalentamiento a pits · variables de estado e histéresis</p>
-                        <div class="tags"><span class="badge">PRIMM</span><span class="badge">histéresis Wokwi</span></div>
+                        <p class="session-card__deliverable"><b>Entregable:</b> proyecto Wokwi con histéresis demostrada</p>
                     </a>
-                    <a class="card session-card reveal" href="sesiones/sesion-3.html">
+                    <a class="card session-card reveal" href="sesiones/sesion-3/">
                         <span class="num">03</span>
                         <h3>Suspensión (potenciómetro)</h3>
                         <p class="sub">Potenciómetro OEM GM 15098628/29 · divisor 5V→3.3V</p>
-                        <div class="tags"><span class="badge">potenciómetro</span><span class="badge">divisor de voltaje</span></div>
+                        <p class="session-card__deliverable"><b>Entregable:</b> sensor de suspensión con divisor + alarma</p>
                     </a>
-                    <a class="card session-card reveal" href="sesiones/sesion-4.html">
+                    <a class="card session-card reveal" href="sesiones/sesion-4/">
                         <span class="num">04</span>
                         <h3>Temperatura (DS18B20 + 1-Wire)</h3>
                         <p class="sub">Monitoreo térmico de motor y CVT · bus OneWire</p>
-                        <div class="tags"><span class="badge">DS18B20</span><span class="badge">1-Wire bus</span></div>
+                        <p class="session-card__deliverable"><b>Entregable:</b> monitoreo térmico dual (DS18B20)</p>
                     </a>
-                    <a class="card session-card reveal" href="sesiones/sesion-5.html">
+                    <a class="card session-card reveal" href="sesiones/sesion-5/">
                         <span class="num">05</span>
                         <h3>Bus I²C: IMU y Encoder AS5600</h3>
                         <p class="sub">MPU6050 (0x68) + AS5600 (0x36) — chasis e indicador de RPM</p>
-                        <div class="tags"><span class="badge">MPU6050</span><span class="badge">AS5600</span><span class="badge">I²C</span></div>
+                        <p class="session-card__deliverable"><b>Entregable:</b> bus I²C con IMU + encoder AS5600</p>
                     </a>
-                    <a class="card card--alert session-card session-card--bonus reveal" href="sesiones/sesion-6.html">
+                    <a class="card card--alert session-card session-card--bonus reveal" href="sesiones/sesion-6/">
                         <span class="num">06 🏁</span>
                         <h3>GPS + MicroSD (Data Day)</h3>
                         <p class="sub">Nodo de adquisición completo, registro en tarjeta de memoria y análisis de corrida</p>
-                        <div class="tags">
-                            <span class="badge">GPS NMEA</span>
-                            <span class="badge">MicroSD SPI</span>
-                            <span class="badge" style="color:var(--signal-amber);border-color:rgba(255,177,61,0.4)">🏁 Data Day · Entrega Final</span>
-                        </div>
+                        <p class="session-card__deliverable"><b>Entregable:</b> dataset en MicroSD + reporte (Data Day)</p>
                     </a>
                 </div>
 

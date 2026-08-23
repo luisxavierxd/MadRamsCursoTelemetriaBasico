@@ -24,7 +24,7 @@ window.SESSION_DATA = {
   model: {
     label: 'Potenciómetro OEM GM',
     alt: 'Modelo 3D del potenciómetro rotativo de suspensión',
-    src: '../assets/models/Pot10k.glb',
+    src: '../../assets/models/Pot10k.glb',
     orientation: '90deg 0deg 180deg',
     specs: [
       { k: 'Tipo', v: 'Rotativo resistivo de alta durabilidad' },
@@ -67,7 +67,7 @@ window.SESSION_DATA = {
         'La ecuación de conversión es directa: <code>Lectura_ADC = (V_medido / V_referencia) × (2^N - 1)</code>. Si el potenciómetro entrega la mitad del voltaje, el ADC lee exactamente la mitad de su escala máxima.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/adc-staircase.svg',
+        src: '../../assets/img/diagrams/adc-staircase.svg',
         alt: 'El ADC cuantifica un voltaje continuo en escalones discretos',
         caption: 'El voltaje continuo se aproxima mediante escalones discretos (cuantización).'
       },
@@ -85,7 +85,7 @@ window.SESSION_DATA = {
         '⚠️ <strong>Regla sagrada de telemetría:</strong> nunca conectes un sensor de 5V directo a un pin de 3.3V sin divisor o adaptador de nivel.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/voltage-divider.svg',
+        src: '../../assets/img/diagrams/voltage-divider.svg',
         alt: 'Esquema de divisor de voltaje con dos resistencias en serie',
         caption: 'Circuito divisor de voltaje que atenúa 5V a niveles seguros para el ESP32.'
       },
@@ -181,6 +181,6 @@ window.SESSION_DATA = {
     url: 'https://balsam-ringer-081.notion.site/Pr-ctica-3a5b2fdbb6b981a8a4bcffe70053f8fe'
   },
 
-  prev: { label: '02 · Fundamentos PRIMM (termostato)', url: 'sesion-2.html' },
-  next: { label: '04 · Temperatura (DS18B20 + 1-Wire)', url: 'sesion-4.html' }
+  prev: { label: '02 · Fundamentos PRIMM (termostato)', url: '../sesion-2/' },
+  next: { label: '04 · Temperatura (DS18B20 + 1-Wire)', url: '../sesion-4/' }
 };

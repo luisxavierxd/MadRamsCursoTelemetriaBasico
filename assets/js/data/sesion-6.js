@@ -24,7 +24,7 @@ window.SESSION_DATA = {
   model: {
     label: 'Módulo GPS u-blox y Logging microSD',
     alt: 'Modelo 3D del módulo GPS con antena de parche y zócalo de microSD',
-    src: '../assets/models/GPS_NEO6.glb',
+    src: '../../assets/models/GPS_NEO6.glb',
     orientation: '-90deg 0deg -45deg',
     specs: [
       { k: 'Módulo GNSS', v: 'u-blox MAX-M10S (concurrencia GPS, GLONASS, Galileo, BeiDou)' },
@@ -68,7 +68,7 @@ window.SESSION_DATA = {
         '3. El archivo debe cerrarse ordenadamente con <code>archivo.close()</code> al finalizar la prueba.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/spi-microsd.svg',
+        src: '../../assets/img/diagrams/spi-microsd.svg',
         alt: 'Diagrama de conexión SPI entre microcontrolador y módulo microSD',
         caption: 'Conexión SPI: MOSI, MISO, SCK y CS dedicados al registro local de alta velocidad.',
         wide: true
@@ -85,7 +85,7 @@ window.SESSION_DATA = {
         'Ten en cuenta el principio rector de MadRams: <em>la radio jamás sustituye a la microSD</em>. Si el coche pasa por una cañada y la señal de radio se corta temporalmente, el 100% de los datos permanece a salvo en la tarjeta de memoria.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/telemetry-pipeline.svg',
+        src: '../../assets/img/diagrams/telemetry-pipeline.svg',
         alt: 'Pipeline de telemetría: adquisición en el coche y respaldo',
         caption: 'Arquitectura de telemetría MadRams: captura local a alta tasa en microSD + enlace en vivo a pits.',
         wide: true
@@ -181,6 +181,6 @@ window.SESSION_DATA = {
     'Semtech Corporation (2022) — SX1261/2 Long Range Low Power Transceiver Overview.'
   ],
 
-  prev: { label: '05 · Bus I²C (MPU6050 + AS5600)', url: 'sesion-5.html' },
+  prev: { label: '05 · Bus I²C (MPU6050 + AS5600)', url: '../sesion-5/' },
   next: { label: 'Continuar al Curso Intermedio: Arquitectura y RTOS', url: 'https://luisxavierxd.github.io/MadRamsCursoTelemetriaIntermedio/' }
 };

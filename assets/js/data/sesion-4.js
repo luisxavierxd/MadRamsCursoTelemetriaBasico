@@ -24,7 +24,7 @@ window.SESSION_DATA = {
   model: {
     label: 'DS18B20 en cápsula impermeable',
     alt: 'Modelo 3D del sensor de temperatura digital DS18B20',
-    src: '../assets/models/DS18B20.glb',
+    src: '../../assets/models/DS18B20.glb',
     orientation: '0deg 0deg 180deg',
     specs: [
       { k: 'Interfaz digital', v: 'Dallas 1-Wire (1 solo hilo de datos bidireccional)' },
@@ -53,7 +53,7 @@ window.SESSION_DATA = {
         'El programa puede solicitar: <em>"sensor con dirección ROM 28-FF-64-1A, entrega tu temperatura"</em>, permitiendo distinguir con 100% de certeza cuál lectura corresponde al motor y cuál a la CVT.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/onewire-bus.svg',
+        src: '../../assets/img/diagrams/onewire-bus.svg',
         alt: 'Bus OneWire con múltiples sensores DS18B20 y resistencia pull-up',
         caption: 'Topología de bus 1-Wire: un solo pin de datos con pull-up conecta múltiples sensores identificados por su ROM de 64 bits.',
         wide: true
@@ -161,6 +161,6 @@ window.SESSION_DATA = {
     url: 'https://balsam-ringer-081.notion.site/Pr-ctica-3a5b2fdbb6b981d393cdf664a8a6edc6'
   },
 
-  prev: { label: '03 · Suspensión (potenciómetro)', url: 'sesion-3.html' },
-  next: { label: '05 · Bus I²C (MPU6050 + AS5600)', url: 'sesion-5.html' }
+  prev: { label: '03 · Suspensión (potenciómetro)', url: '../sesion-3/' },
+  next: { label: '05 · Bus I²C (MPU6050 + AS5600)', url: '../sesion-5/' }
 };

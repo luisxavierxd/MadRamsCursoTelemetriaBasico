@@ -24,7 +24,7 @@ window.SESSION_DATA = {
   model: {
     label: 'ESP32-WROOM-32S',
     alt: 'Modelo 3D del microcontrolador ESP32-WROOM-32S',
-    src: '../assets/models/ESP32Wroom32s.glb',
+    src: '../../assets/models/ESP32Wroom32s.glb',
     orientation: '0deg 0deg 0deg',
     specs: [
       { k: 'MCU', v: 'ESP32 Dual-Core Tensilica Xtensa LX6 (240 MHz)' },
@@ -258,6 +258,6 @@ window.SESSION_DATA = {
     url: 'https://balsam-ringer-081.notion.site/Pr-ctica-S2-Termostato-3a5b2fdbb6b981238dddf6d0e0041c33'
   },
 
-  prev: { label: '01 · Electricidad + Arduino', url: 'sesion-1.html' },
-  next: { label: '03 · Suspensión (potenciómetro)', url: 'sesion-3.html' }
+  prev: { label: '01 · Electricidad + Arduino', url: '../sesion-1/' },
+  next: { label: '03 · Suspensión (potenciómetro)', url: '../sesion-3/' }
 };

@@ -24,7 +24,7 @@ window.SESSION_DATA = {
   model: {
     label: 'IMU MPU-6050 y Encoder AS5600',
     alt: 'Modelo 3D del sensor IMU MPU-6050 de 6 grados de libertad',
-    src: '../assets/models/MPU6050.glb',
+    src: '../../assets/models/MPU6050.glb',
     orientation: '0deg 0deg 202deg',
     specs: [
       { k: 'Bus de comunicación', v: '<span class="hl">I²C (SDA / SCL) a 100/400 kHz</span>' },
@@ -54,7 +54,7 @@ window.SESSION_DATA = {
         'Cada chip en el bus tiene una <strong>dirección única de 7 bits</strong> (0x08 a 0x77). Cuando el maestro inicia una comunicación, envía primero la dirección del dispositivo con el que desea hablar; solo el chip cuya dirección coincida responderá con un bit de <strong>ACK (Acknowledge)</strong>, mientras que todos los demás ignoran el resto del mensaje.'
       ],
       diagram: {
-        src: '../assets/img/diagrams/i2c-bus.svg',
+        src: '../../assets/img/diagrams/i2c-bus.svg',
         alt: 'Topología del bus I2C con MPU6050 y AS5600 compartiendo SDA y SCL',
         caption: 'Topología I²C: MPU6050 (0x68) y AS5600 (0x36) comparten SDA/SCL; el microcontrolador los selecciona por dirección.',
         wide: true
@@ -94,7 +94,7 @@ window.SESSION_DATA = {
         'Para detectar impactos o volcaduras (rollover), calculamos la magnitud total del vector de aceleración <code>|a| = √(ax² + ay² + az²)</code> y disparamos una bandera de alarma si supera el umbral crítico configurado (ej. &gt; 3.5 g).'
       ],
       diagram: {
-        src: '../assets/img/diagrams/accelerometer-axes.svg',
+        src: '../../assets/img/diagrams/accelerometer-axes.svg',
         alt: 'Ejes espaciales X, Y, Z del acelerómetro y vector de aceleración',
         caption: 'Tres ejes ortogonales de aceleración; en reposo, el eje vertical mide la gravedad terrestre.'
       }
@@ -183,6 +183,6 @@ window.SESSION_DATA = {
     url: 'https://balsam-ringer-081.notion.site/Pr-ctica-3a5b2fdbb6b981449f11dab04448a812'
   },
 
-  prev: { label: '04 · Temperatura (DS18B20 + 1-Wire)', url: 'sesion-4.html' },
-  next: { label: '06 🏁 · GPS + MicroSD (Data Day)', url: 'sesion-6.html' }
+  prev: { label: '04 · Temperatura (DS18B20 + 1-Wire)', url: '../sesion-4/' },
+  next: { label: '06 🏁 · GPS + MicroSD (Data Day)', url: '../sesion-6/' }
 };
