@@ -178,11 +178,8 @@ window.SESSION_DATA = {
     'SparkFun Electronics (2020) — I2C Communication Architecture and Bus Troubleshooting Guide.'
   ],
 
-  cta: {
-    label: 'Ver instrucciones completas y retos en Notion →',
-    url: 'https://balsam-ringer-081.notion.site/Pr-ctica-3a5b2fdbb6b981449f11dab04448a812'
-  },
 
   prev: { label: '04 · Temperatura (DS18B20 + 1-Wire)', url: '../sesion-4/' },
+  cta: { label: 'Abrir esta sesión en Notion →', url: 'https://balsam-ringer-081.notion.site/3a5b2fdbb6b9812b84a0db75b914f7d1' },
   next: { label: '06 🏁 · GPS + MicroSD (Data Day)', url: '../sesion-6/' }
 };

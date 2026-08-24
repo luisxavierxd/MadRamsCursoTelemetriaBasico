@@ -253,11 +253,8 @@ window.SESSION_DATA = {
     'Arduino Documentation — Language Reference: Control Structure (if / else if), Boolean Variables and Non-blocking millis() Timing.'
   ],
 
-  cta: {
-    label: 'Ver instrucciones completas y retos en Notion →',
-    url: 'https://balsam-ringer-081.notion.site/Pr-ctica-S2-Termostato-3a5b2fdbb6b981238dddf6d0e0041c33'
-  },
 
   prev: { label: '01 · Electricidad + Arduino', url: '../sesion-1/' },
+  cta: { label: 'Abrir esta sesión en Notion →', url: 'https://balsam-ringer-081.notion.site/3c5b2fdbb6b981ca9c9bf0a11cf425ed' },
   next: { label: '03 · Suspensión (potenciómetro)', url: '../sesion-3/' }
 };

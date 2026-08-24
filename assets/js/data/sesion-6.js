@@ -182,5 +182,6 @@ window.SESSION_DATA = {
   ],
 
   prev: { label: '05 · Bus I²C (MPU6050 + AS5600)', url: '../sesion-5/' },
+  cta: { label: 'Abrir esta sesión en Notion →', url: 'https://balsam-ringer-081.notion.site/3a5b2fdbb6b981a09798dca48484033b', accent: true },
   next: { label: 'Continuar al Curso Intermedio: Arquitectura y RTOS', url: 'https://luisxavierxd.github.io/MadRamsCursoTelemetriaIntermedio/' }
 };

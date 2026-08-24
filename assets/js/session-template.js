@@ -253,7 +253,7 @@
     if (!data.cta) return null;
     return el('section', { class: 'session-section' }, [
       el('div', { class: 'container' }, [
-        el('a', { class: 'btn btn--primary reveal', href: data.cta.url, target: '_blank', rel: 'noopener' }, [data.cta.label])
+        el('a', { class: 'btn ' + (data.cta.accent ? 'btn--signal' : 'btn--primary') + ' reveal', href: data.cta.url, target: '_blank', rel: 'noopener' }, [data.cta.label])
       ])
     ]);
   }
@@ -266,7 +266,10 @@
 
   function renderFooter() {
     return el('footer', { class: 'site-footer' }, [
-      el('div', { class: 'container' }, [el('p', {}, ['MadRams — Minibaja SAE. Instrucciones y retos en Notion · Entregas y retroalimentación en Microsoft Teams.'])])
+      el('div', { class: 'container', style: 'display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center' }, [
+        el('p', { style: 'margin:0' }, ['MadRams — Minibaja SAE. Instrucciones y retos en Notion · Entregas y retroalimentación en Microsoft Teams.']),
+        el('a', { href: 'https://balsam-ringer-081.notion.site/3a5b2fdbb6b981238dddf6d0e0041c33', target: '_blank', rel: 'noopener', style: 'color:var(--text-dim)' }, ['Notion del equipo ↗'])
+      ])
     ]);
   }
 

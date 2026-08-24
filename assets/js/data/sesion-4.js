@@ -156,11 +156,8 @@ window.SESSION_DATA = {
     'Scherz, P., & Monk, S. (2016) — Practical Electronics for Inventors (4th ed.). McGraw-Hill: Digital Temperature Transducers.'
   ],
 
-  cta: {
-    label: 'Ver instrucciones completas y retos en Notion →',
-    url: 'https://balsam-ringer-081.notion.site/Pr-ctica-3a5b2fdbb6b981d393cdf664a8a6edc6'
-  },
 
   prev: { label: '03 · Suspensión (potenciómetro)', url: '../sesion-3/' },
+  cta: { label: 'Abrir esta sesión en Notion →', url: 'https://balsam-ringer-081.notion.site/3a5b2fdbb6b98177a73cdfd33a23e69c' },
   next: { label: '05 · Bus I²C (MPU6050 + AS5600)', url: '../sesion-5/' }
 };

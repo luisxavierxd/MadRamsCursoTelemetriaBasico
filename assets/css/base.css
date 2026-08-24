@@ -95,6 +95,8 @@ a:focus-visible, button:focus-visible, .btn:focus-visible {
 .btn--primary:hover { background: var(--blue-bright); transform: translateY(-1px); }
 .btn--ghost { background: transparent; border-color: var(--border); color: var(--text); }
 .btn--ghost:hover { border-color: var(--blue-bright); color: var(--blue-bright); }
+.btn--signal { background: var(--signal); color: var(--bg); border-color: var(--signal); box-shadow: 0 4px 18px -4px var(--signal); }
+.btn--signal:hover { filter: brightness(1.06); transform: translateY(-1px); box-shadow: 0 6px 24px -4px var(--signal); }
 
 /* Cards */
 .card {

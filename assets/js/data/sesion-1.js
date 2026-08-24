@@ -203,11 +203,8 @@ window.SESSION_DATA = {
     'Fluke Corporation (2023) — Digital Multimeter Basics: Safe Measurements of Voltage, Current, and Resistance.'
   ],
 
-  cta: {
-    label: 'Ver instrucciones completas y retos en Notion →',
-    url: 'https://balsam-ringer-081.notion.site/Pr-ctica-3a5b2fdbb6b981ea8e70ebdee9da3063'
-  },
 
   prev: null,
+  cta: { label: 'Abrir esta sesión en Notion →', url: 'https://balsam-ringer-081.notion.site/3a5b2fdbb6b98137a189f2e5b01090c0' },
   next: { label: '02 · Fundamentos PRIMM (termostato)', url: '../sesion-2/' }
 };

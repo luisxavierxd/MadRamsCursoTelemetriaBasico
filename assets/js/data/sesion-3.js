@@ -176,11 +176,8 @@ window.SESSION_DATA = {
     'Scherz, P., & Monk, S. (2016) — Practical Electronics for Inventors (4th ed.). McGraw-Hill: Voltage Dividers and Potentiometric Sensors.'
   ],
 
-  cta: {
-    label: 'Ver instrucciones completas y retos en Notion →',
-    url: 'https://balsam-ringer-081.notion.site/Pr-ctica-3a5b2fdbb6b981a8a4bcffe70053f8fe'
-  },
 
   prev: { label: '02 · Fundamentos PRIMM (termostato)', url: '../sesion-2/' },
+  cta: { label: 'Abrir esta sesión en Notion →', url: 'https://balsam-ringer-081.notion.site/3a5b2fdbb6b98184abc3f2ffc10e0763' },
   next: { label: '04 · Temperatura (DS18B20 + 1-Wire)', url: '../sesion-4/' }
 };
